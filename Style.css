@@ -1,0 +1,94 @@
+html, body {
+  height: 100%;
+  width: 1440px;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+main{
+  margin: auto;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  width: 75%;
+  background-color: hsl(0, 100%, 74%);
+  background-image: url(file:///C:/Users/eunic/..Fullstack/Images/bg-intro-desktop.png);
+  font-family: poppins;
+  padding: 60px;
+}
+.left{
+  width: 50%;
+  justify-content: center;
+  padding: 50px;
+  color: white;
+  align-items: center;
+}
+h1{
+  align-content: top;
+  padding-top: 50px;
+  padding-bottom: 25px;
+  font-size: 38px;
+  font-weight: strong;
+  line-height: 1.1;
+  ;
+}
+.btm{
+  align-content: bottom;
+  font-size: 12px;
+  font-weight: 500;
+}
+.right{
+  width: 50%;
+  justify-content: space-between;
+}
+.right{
+  display: flex;
+  flex-direction: column;
+  padding-right: 50px;
+  padding-top: 15px;
+  justify-content: space-between;
+}
+.bottom1{
+  background-color: hsl(154, 59%, 51%);
+  color: white;
+  width: 100%;
+  box-shadow: 5px rgba(45, 44, 44, 0.12);
+}
+.bottom2{ 
+  font-size: 8px;
+  width: 100%;
+  text-align: center;
+}
+bold{
+  color: red;
+  font-weight: 700;
+}
+.top{
+  background-color: hsl(248, 32%, 49%);
+  color: white;
+  padding: 30px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-radius: 5px;
+  Font-size: 11px;
+  text-align: center;
+}
+form{
+  color: black;
+  background-color: white;
+  padding: 30px;
+  border-radius: 5px;
+}
+input{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border-color: hsl(246, 25%, 77%);
+  border-radius: 4px;
+  font-size: 10px;
+  font-weight: 700;
+}
