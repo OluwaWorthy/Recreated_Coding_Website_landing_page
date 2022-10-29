@@ -93,6 +93,7 @@ input{
   font-size: .7em;
   font-weight: 700;
 }
+<<<<<<< HEAD:Style.css
 @media(min-width: 992px){
   *{
     box-sizing: border-box;
@@ -149,3 +150,5 @@ input{
 }
 
  
+=======
+>>>>>>> d0181a0da396e45a27c73d7add7b5527d698fff0:style.css
